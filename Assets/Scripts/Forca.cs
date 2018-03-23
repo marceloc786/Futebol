@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Forca : MonoBehaviour {
 
+    private Rigidbody2D bola;
+
 	// Use this for initialization
 	void Start () {
 		
