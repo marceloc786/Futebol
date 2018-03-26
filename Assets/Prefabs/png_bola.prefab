@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212075779614366650}
   - component: {fileID: 58670609231674854}
   - component: {fileID: 50740267514687122}
+  - component: {fileID: 114178261369768438}
+  - component: {fileID: 114751690189180220}
   m_Layer: 0
   m_Name: png_bola
   m_TagString: Untagged
@@ -36,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1061654779671524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -7.54, y: -3.13, z: 0}
   m_LocalScale: {x: 0.21, y: 0.21, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,6 +79,35 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.5599997
+--- !u!114 &114178261369768438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061654779671524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d231cc002787c045b95cc4b83bf4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posStart: {fileID: 0}
+  setaImg: {fileID: 0}
+  zRotate: 0
+  liberaRot: 0
+  liberaTiro: 0
+--- !u!114 &114751690189180220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061654779671524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47144cc1a0330154eb60a28f53996a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 0
+  seta2Img: {fileID: 0}
 --- !u!212 &212075779614366650
 SpriteRenderer:
   m_ObjectHideFlags: 1
