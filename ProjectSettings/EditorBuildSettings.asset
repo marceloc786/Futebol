@@ -4,4 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Cenas/Menu_Inicial.unity
+    guid: 73f3dd0124bb2ed4aa088f5d32603605
+  - enabled: 1
+    path: Assets/Cenas/Level_Game.unity
+    guid: 8a1d533bf9a95b04bb1e84236a81f67b
+  - enabled: 1
+    path: Assets/Cenas/Loja_Bolas.unity
+    guid: ef3cd17c9ed7c204481a17ad7d144cd7
+  - enabled: 1
+    path: Assets/Cenas/Level1.unity
+    guid: 08ca879dc6403df4aa34b606fc65c5c1
+  - enabled: 1
+    path: Assets/Cenas/Level2.unity
+    guid: 18b509e9774d81a48acb039f8f51687d
+  - enabled: 1
+    path: Assets/Cenas/Level3.unity
+    guid: 22f0f30627742234f967b158db3dcb87
+  - enabled: 1
+    path: Assets/Cenas/Level4.unity
+    guid: ffcf13ef7fd57ab4cbac17d15d7ea385
